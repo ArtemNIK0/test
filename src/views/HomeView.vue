@@ -113,10 +113,10 @@ function handleMouseMove(e) {
           </div>
         </div>
     <div v-if="showModal(3)" @click.self="closeModal(3)" class="modal fixed top-0 left-0 w-full h-full bg-blue-400 bg-opacity-70 z-10 overflow-auto box-border">
-      <!-- Содержимое модального окна 3 -->
+     
     </div>
     <div v-if="showModal(4)" @click.self="closeModal(4)" class="modal fixed top-0 left-0 w-full h-full bg-blue-400 bg-opacity-70 z-10 overflow-auto box-border">
-      opacity-70 z-10 overflow-auto box-border">
+    
   <div class="modal-content bg-black rounded-lg mx-auto p-10 w-80 max-w-md relative box-border">
     <span @click="closeModal(4)" class="close rounded-2xl bg-slate-500 absolute top-5 right-5 text-3xl cursor-pointer">×</span>
     <div class="header text-blue-700 text-center text-2xl mb-5 font-bold">Регистрация</div>
