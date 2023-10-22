@@ -66,9 +66,7 @@ function handleMouseMove(e) {
   </div>
   
 </div>
-    <!-- Основное содержание -->
     <main class="flex-1 p-4 ">
-      <!-- Шапка сайта -->
       <header class="mb-4">
         <h1 class="text-2xl font-bold">Главная</h1>
       </header>
