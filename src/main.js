@@ -1,11 +1,10 @@
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
-import './index.css'
+import "./index.css";
 import App from "./App.vue";
 import HomeView from "./views/HomeView.vue";
 import SettingsView from "./views/SettingsView.vue";
 import UserView from "./views/UserView.vue";
-
 
 const router = createRouter({
   routes: [

@@ -16,19 +16,18 @@
 .fade-leave-to {
   opacity: 0;
 }
-.menu-slide-enter-active, 
+.menu-slide-enter-active,
 .menu-slide-leave-active {
   transition: all 0.5s ease;
 }
 
-.menu-slide-enter-from, 
+.menu-slide-enter-from,
 .menu-slide-leave-to {
   transform: translateX(-100%);
 }
 
-.menu-slide-enter-to, 
+.menu-slide-enter-to,
 .menu-slide-leave-from {
   transform: translateX(0%);
 }
 </style>
-
